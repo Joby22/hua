@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面信息完善</title>
+    <link rel="stylesheet" href="../css/base2.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="./jquery/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="box">
+        <img src="../img/logo_2x.png" alt="">
+        <div class="divider"></div>
+        <h1>欢迎来到花瓣 ! 请完善你的信息</h1>
+        <form action="../api/register.php" method="POST">
+            <div>
+                <label>手机号</label>
+                <input type="text" id="telephone" class="i1" placeholder="  请输入你的手机号">
+                <i></i>
+            </div>
+            <br>
+
+            <div>
+                <label>验证码</label>
+                <input type="text" id="telephone1" class="i1" placeholder="  验证码">
+                <i></i>
+                <div id="v_container"
+                    style="width: 150px;height: 50px;margin-left:70px;padding-top:10px;margin-left:200px"></div>
+                <!-- <button>重新发送</button> -->
+                <i></i>
+            </div>
+
+             <div>
+                <label>用户名</label>
+                <input type="text" id="username" name="username" class="i1" placeholder="  用户名">
+
+            </div>
+
+             <div>
+                <label>密码</label>
+                <input type="password" id="password" name="password" class="i1" placeholder="  设定登录密码">
+                <i></i>
+            </div>
+
+             <div>
+                <label>确认密码</label>
+                <input type="password" id="password1" class="i1" placeholder="  请再输入一次登录密码">
+                <i></i>
+            </div>
+
+            <div class="checkbox">
+                <input id="agree" type="checkbox">&nbsp;已阅读并接受<a class="red-link"
+                    href="https://faq.huaban.com/faq/user-agreement/" target="_blank">《花瓣用户协议》</a><a class="red-link"
+                    href="https://faq.huaban.com/faq/huaban-privacy-policy/" target="_blank"
+                    style="margin-left: -6px;">《花瓣隐私政策》</a></div>
+            <!--  <div class="next-safe">
+                <span class="next-register">
+                    <input type="checkbox" id="Check" name="proto" class="check">
+                    <b>我已阅读并接受</b>
+                    <a href="#" target="_blank" class="wold">《花瓣用户协议》《花瓣隐私政策》</a>
+                   
+                </span>
+            </div> -->
+            <button id="register" class="login">提交</button>
+        </form>
+    </div>
+</body>
+
+</html>
+
+<script>
+    window.onload = function () {
+        var oInps = document.getElementsByTagName('input');
+        var oI = document.getElementsByTagName('i');
+        // 手机号码验证
+        // 失去焦点时发生
+        oInps[0].onblur = function () {
+            // 判断手机号格式
+            if (/^1[356789]\d{9}$/.test(oInps[0].value)) {
+                oI[0].className = "right"
+                oI[0].innerText = "手机号输入正确"
+            } else {
+                oI[0].className = "wrong"
+                oI[0].innerText = "手机号输入错误"
+            }
+        }
+
+        // 验证码设置
+        oInps[1].onblur = function () {
+            var res = verifyCode.validate(oInps[1].value);
+            if (res) {
+                oI[1].className = "right"
+                oI[1].innerText = "验证码输入正确"
+            } else {
+                oI[1].className = "wrong"
+                oI[1].innerText = "验证码输入错误"
+            }
+        }
+
+        // 注册密码设置
+        oInps[3].onblur = function () {
+            // 以数字 字母 标点符号 组成
+            if (/^[0-9a-zA-Z,.]{6,14}$/.test(oInps[3].value)) {
+                oI[3].className = "right"
+                oI[3].innerText = "密码输入正确"
+            } else {
+                oI[3].className = "wrong"
+                oI[3].innerText = "密码输入错误"
+            }
+        }
+
+
+
+
+        // 确认密码
+        oInps[4].onblur = function () {
+            if (oInps[3].value == oInps[4].value) {
+                oI[4].className = "right";
+                oI[4].innerText = "密码输入正确";
+            } else {
+                oI[4].className = "wrong";
+                oI[4].innerText = "密码输入错误";
+            }
+        }
+
+    }
+
+
+    // ajax表单注册
+    
+        $('#register').on('click', function () {
+            $.ajax({
+                url: './register.php',
+                type: post,
+                data: {
+                    'username': $('username').val(),
+                    'password': $('password').val(),
+                },
+                success: function (res) {
+                    console.log(JSON.parse(res));
+                    var obj = JSON.parse(res);
+                    if (obj.status == 1) {
+                        alert("登录成功，3秒后跳转主页");
+                        setTimeout(function () {
+                            // window.location.href = "login.html";
+
+                            location.href = './index.html';
+                        }, 3000)
+                    } else {
+                        alert("注册失败，请重新注册");
+                    }
+                }
+            })
+        });
+   
+
+</script>
+<script src="../js/gVerify.js"></script>
+<script>
+    var verifyCode = new GVerify("v_container");
+</script>

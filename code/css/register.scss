@@ -1,0 +1,82 @@
+.box {
+    width: 516px;
+    height: 482px;
+    margin: 100px auto;
+    // background: rgb(246, 164, 164);
+
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    .divider {
+        width: 516px;
+        border-bottom: 1px solid #b3aaaa;
+        // margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    form {
+        margin-top: 20px;
+
+        label {
+            display: inline-block;
+            width: 150px;
+            height: 30px;
+            // background: rgb(236, 166, 166);
+            text-align: right;
+            line-height: 30px;
+        }
+
+        .i1 {
+            width: 200px;
+            height: 30px;
+            margin-left: 20px;
+            border: 1px solid #ccc;
+        }
+
+        // #v_container {
+        //     margin-left: 50px;
+        // }
+
+        button {
+            width: 80px;
+            height: 30px;
+            margin-left: 175px;
+            margin-top: 20px;
+        }
+
+        .checkbox {
+            font-size: 12px;
+            margin-top: 20px;
+
+            input {
+                margin-left: 175px;
+            }
+
+            a {
+                display: inline-block;
+                color: #923c0b;
+            }
+        }
+
+
+    }
+}
+
+.wrong {
+    color: red;
+    background: url(../img/error.png) no-repeat;
+}
+
+.right {
+    color: green;
+    background: url(../img/right.png) no-repeat;
+}

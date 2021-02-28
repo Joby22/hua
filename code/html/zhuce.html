@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>花瓣美思-注册页</title>
+    <link rel="stylesheet" href="../css/base2.css">
+    <link rel="stylesheet" href="../css/zhuce.css">
+    <link rel="stylesheet" href="../swiper-master/package/swiper-bundle.min.css">
+    <script src="../swiper-master/package/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="box">
+        <div class="swiper-container">
+            <!-- 每一个轮播图都必须有一个类名 swiper-slide  -->
+            <!-- 轮播图的容器 一定要有类名叫 ：swiper-wrapper -->
+            <div class="swiper-wrapper">
+                <!-- <div class="swiper-slide" style="background-color: green;">Slide 1</div> -->
+                <div class="swiper-slide"><img src="../images/login1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../images/login2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../images/login3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../images/login4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../images/login5.jpg" alt=""></div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <!-- <div class="swiper-pagination"></div> -->
+
+            <!-- 如果需要导航按钮 -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+
+            <!-- 如果需要滚动条 -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+
+        <form action="./login.php" method="POST">
+            <img src="../img/logo_2x.png" alt="">
+            <p class="p1">用第三方账户登录花瓣</p>
+            <div class="center">
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="https://huaban.com/signup/"></a></li>
+                    <li><a href="#"></a></li>
+                    <!-- <li><a href="#"></a></li> -->
+
+                </ul>
+            </div><br />
+            <!-- https://huaban.com/login/?dialog=1 -->
+            <p class="p2"><a href="./register.html">使用手机号注册</a>
+            </p>
+
+
+            <div class="zc">
+                <!-- <a href="" class="a1">忘记密码>></a> -->
+                <a href="./login.html" class="a1">已有账号?</a>
+                <a href="" class="a2">登录到花瓣<span>></span></a>
+            </div>
+
+
+
+
+
+        </form>
+    </div>
+
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            // 默认显示索引为2的这个元素
+            // initialSlide: 1,
+            grabCursor: true,
+            // init: false,
+            direction: 'horizontal', // 垂直切换选项
+            loop: true, // 循环模式选项
+            // autoplay: true,
+            autoplay: {
+                delay: 1000,
+                disableOnInteraction: false
+            }
+
+
+        });
+        mySwiper.on('slideChange', function () {
+            console.log(this.activeIndex);
+        })
+
+        // let btn = document.querySelector('#btn');
+        // // btn.onclick = function () {
+        // //     mySwiper.init();
+        // // }
+    </script>
+
+
+
+</body>
+
+</html>

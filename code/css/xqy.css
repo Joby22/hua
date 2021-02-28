@@ -1,0 +1,482 @@
+header {
+  width: 100%;
+  height: 78px;
+  background: #fff;
+  position: fixed;
+  top: 0px;
+}
+
+header #head {
+  width: 1100px;
+  height: 78px;
+  margin: auto;
+}
+
+header #head #nav_left {
+  width: 380px;
+  height: 27px;
+}
+
+header #head #nav_left .a1,
+header #head #nav_left .a2,
+header #head #nav_left .a3 {
+  display: inline-block;
+  height: 78px;
+  line-height: 78px;
+  color: #000;
+  margin-left: 10px;
+}
+
+header #head #nav_left .a1 img,
+header #head #nav_left .a2 img,
+header #head #nav_left .a3 img {
+  width: 120px;
+  height: 78px;
+}
+
+header #head #nav_left a:visited {
+  border-bottom: 1px solid #883915;
+}
+
+header #head #nav_right {
+  float: right;
+}
+
+header #head #nav_right #login {
+  float: left;
+  width: 80px;
+  height: 27px;
+  text-align: center;
+  color: black;
+  line-height: 27px;
+  background: #f7f7f7;
+}
+
+header #head #nav_right #login:hover {
+  color: #fff;
+  background: #dad6d6;
+}
+
+header #head #nav_right #zhuce {
+  float: right;
+  margin-left: 10px;
+  width: 80px;
+  height: 27px;
+  background: #c07131;
+  text-align: center;
+  color: #fff;
+  line-height: 27px;
+}
+
+#content {
+  width: 100%;
+  height: 1400px;
+  background: #f7f7f7;
+  padding-top: 30px;
+  margin-top: 100px;
+}
+
+#content .content {
+  width: 1100px;
+  height: 1350px;
+  margin: auto;
+}
+
+#content .content .content1 {
+  width: 780px;
+  height: 1350px;
+  background: #fff;
+  float: left;
+}
+
+#content .content .content1 p {
+  color: #ccc;
+  font-size: 15px;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+#content .content .content1 p a {
+  display: inline-block;
+  color: #ccc;
+}
+
+#content .content .content1 h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+#content .content .content1 .img1 {
+  display: block;
+  width: 780px;
+  height: 640px;
+}
+
+#content .content .content1 h2 {
+  color: #8d8585;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 14px;
+}
+
+#content .content .content1 .img2 {
+  display: block;
+  margin-left: 30px;
+  width: 720px;
+  height: 365px;
+}
+
+#content .content .content1 #span1 {
+  display: block;
+  margin-left: 30px;
+}
+
+#content .content .content1 .divider {
+  width: 720px;
+  border-bottom: 1px solid #b3aaaa;
+  margin-left: 30px;
+  margin-top: 17px;
+}
+
+#content .content .content1 #span2 {
+  float: right;
+  display: block;
+  width: 150px;
+  height: 36px;
+  background: #c0a75e;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+#content .content .content1 #span2 a {
+  display: block;
+  color: #fff;
+  line-height: 36px;
+  text-align: center;
+}
+
+#content .content .content1 #span2:hover {
+  background: #bea046;
+}
+
+#content .content .content2 {
+  width: 282px;
+  height: 820px;
+  float: right;
+}
+
+#content .content .content2 .top {
+  width: 282px;
+  height: 234px;
+  background: #fff;
+}
+
+#content .content .content2 .top h1 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 25px;
+  text-align: center;
+}
+
+#content .content .content2 .top h2 {
+  font-size: 15px;
+  color: #a09b9b;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#content .content .content2 .top h2 a {
+  display: inline-block;
+  color: #9c7207;
+}
+
+#content .content .content2 .top .divider {
+  width: 240px;
+  border-bottom: 1px solid #b3aaaa;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#content .content .content2 .top p {
+  margin-left: 20px;
+  color: #a09b9b;
+}
+
+#content .content .content2 .top .p1 {
+  margin-top: 20px;
+}
+
+#content .content .content2 .top .p1 span {
+  display: inline-block;
+  margin-left: 198px;
+}
+
+#content .content .content2 .top .p2 span {
+  display: inline-block;
+  margin-left: 138px;
+  color: #c0a75e;
+}
+
+#content .content .content2 .top #span2 {
+  display: block;
+  width: 240px;
+  height: 36px;
+  background: #c0a75e;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#content .content .content2 .top #span2 a {
+  display: block;
+  color: #fff;
+  line-height: 36px;
+  text-align: center;
+}
+
+#content .content .content2 .top #span2:hover {
+  background: #bea046;
+}
+
+#content .content .content2 .center {
+  width: 282px;
+  height: 344px;
+  background: #fff;
+  margin-top: 15px;
+  padding-top: 25px;
+}
+
+#content .content .content2 .center figure {
+  display: flex;
+  width: 242px;
+  height: 63px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+#content .content .content2 .center figure img {
+  display: block;
+  width: 63px;
+  height: 63px;
+}
+
+#content .content .content2 .center figure figcaption {
+  margin-bottom: 5px;
+}
+
+#content .content .content2 .center figure figcaption .p1 {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+#content .content .content2 .center figure figcaption span {
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  background: #d3cfcf;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#content .content .content2 .center figure figcaption span img {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+#content .content .content2 .center figure figcaption span a {
+  color: black;
+}
+
+#content .content .content2 .center figure figcaption span a:hover {
+  color: #fff;
+}
+
+#content .content .content2 .center .divider {
+  width: 240px;
+  border-bottom: 1px solid #b3aaaa;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+#content .content .content2 .center .p2 {
+  font-size: 15px;
+  text-align: center;
+  color: darkgray;
+  margin-top: 13px;
+  margin-left: 19px;
+}
+
+#content .content .content2 .center .p3 {
+  font-size: 15px;
+  color: darkgray;
+  margin-top: 5px;
+  margin-left: 19px;
+}
+
+#content .content .content2 .center .p3 span {
+  display: inline-block;
+  margin-left: 113px;
+}
+
+#content .content .content2 .center .p4 {
+  font-size: 12px;
+  text-align: left;
+  color: darkgray;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+#content .content .content2 .bottom {
+  width: 282px;
+  height: 273px;
+  background: #fff;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+#content .content .content2 .bottom .p1 {
+  color: darkgray;
+  margin-left: 20px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+#content .content .content2 .bottom .p2 {
+  font-size: 14px;
+  text-align: left;
+  color: #585555;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+#content .content .content2 .bottom .divider {
+  width: 240px;
+  border-bottom: 1px solid #b3aaaa;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#content .content .content2 .bottom .p3 {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+#content .content .content2 .bottom .p3 a {
+  display: inline-block;
+  color: #644e15;
+}
+
+#content .content .content2 .bottom .p3 span {
+  display: inline-block;
+  color: #b3aaaa;
+  width: 1px;
+  height: 14px;
+  border-right: 1px solid #b3aaaa;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#wz {
+  width: 100%;
+  height: 300px;
+  background: #333333;
+}
+
+#wz .wz {
+  width: 1100px;
+  height: 300px;
+  margin: auto;
+}
+
+#wz .wz h1 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #909090;
+  padding-top: 25px;
+}
+
+#wz .wz #link {
+  width: 1100px;
+}
+
+#wz .wz #link h3 {
+  height: 75px;
+  line-height: 75px;
+  color: #909090;
+}
+
+#wz .wz #link .link1,
+#wz .wz #link .link2,
+#wz .wz #link .link3,
+#wz .wz #link .link4 {
+  width: 275px;
+  height: 185px;
+  float: left;
+}
+
+#wz .wz #link .link1 ul li,
+#wz .wz #link .link2 ul li,
+#wz .wz #link .link3 ul li,
+#wz .wz #link .link4 ul li {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+#wz .wz #link .link1 ul li a,
+#wz .wz #link .link2 ul li a,
+#wz .wz #link .link3 ul li a,
+#wz .wz #link .link4 ul li a {
+  color: #ccc;
+}
+
+#wz .wz #link .link1 ul li a:hover,
+#wz .wz #link .link2 ul li a:hover,
+#wz .wz #link .link3 ul li a:hover,
+#wz .wz #link .link4 ul li a:hover {
+  color: black;
+}
+
+#copyright {
+  width: 100%;
+  height: 60px;
+  background: #222222;
+}
+
+#copyright .copyright {
+  width: 1100px;
+  height: 60px;
+  margin: auto;
+}
+
+#copyright .copyright p {
+  height: 60px;
+  line-height: 60px;
+  color: #909090;
+}
+
+#copyright span {
+  display: block;
+  width: 123px;
+  height: 41px;
+  line-height: 41px;
+  text-align: center;
+  background: #3c90dc;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  float: right;
+  position: fixed;
+  right: 50px;
+  bottom: 0px;
+}

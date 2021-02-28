@@ -1,0 +1,407 @@
+header {
+  width: 100%;
+  height: 78px;
+  background: #fff;
+  position: fixed;
+  top: 0px;
+}
+
+header #head {
+  width: 1200px;
+  height: 78px;
+  margin: auto;
+}
+
+header #head #nav_left {
+  width: 380px;
+  height: 27px;
+}
+
+header #head #nav_left .a1,
+header #head #nav_left .a2,
+header #head #nav_left .a3 {
+  display: inline-block;
+  height: 78px;
+  line-height: 78px;
+  color: #000;
+  margin-left: 10px;
+}
+
+header #head #nav_left .a1 img,
+header #head #nav_left .a2 img,
+header #head #nav_left .a3 img {
+  width: 120px;
+  height: 78px;
+}
+
+header #head #nav_left a:visited {
+  border-bottom: 1px solid #883915;
+}
+
+header #head #nav_right {
+  float: right;
+}
+
+header #head #nav_right #login {
+  float: left;
+  width: 80px;
+  height: 27px;
+  text-align: center;
+  color: black;
+  line-height: 27px;
+  background: #f7f7f7;
+}
+
+header #head #nav_right #login:hover {
+  color: #fff;
+  background: #dad6d6;
+}
+
+header #head #nav_right #zhuce {
+  float: right;
+  margin-left: 10px;
+  width: 80px;
+  height: 27px;
+  background: #c07131;
+  text-align: center;
+  color: #fff;
+  line-height: 27px;
+}
+
+#nav {
+  width: 100%;
+  height: 167px;
+  background: #f7f7f7;
+  margin-top: 100px;
+}
+
+#nav .nav {
+  width: 1200px;
+  height: 167px;
+  padding-top: 20px;
+  margin: auto;
+  margin-bottom: 3px;
+  background: #f7f7f7;
+}
+
+#nav .nav .nav_top {
+  width: 1200px;
+  height: 73px;
+  background: #fff;
+  border: 1px solid #f7f7f7;
+}
+
+#nav .nav .nav_top .top1 {
+  width: 1140px;
+  height: 73px;
+  margin: auto;
+}
+
+#nav .nav .nav_top .top1 ul {
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 73px;
+  margin-right: 20px;
+}
+
+#nav .nav .nav_top .top1 ul li {
+  margin-right: 20px;
+}
+
+#nav .nav .nav_top .top1 ul li a {
+  display: block;
+  color: #333;
+}
+
+#nav .nav .nav_top .top1 ul li:nth-child(1) a {
+  color: #0f0e0e;
+}
+
+#nav .nav .nav_bottom {
+  width: 1200px;
+  height: 73px;
+  background: #fff;
+  margin-bottom: 1px;
+}
+
+#nav .nav .nav_bottom .bottom1 {
+  width: 1140px;
+  height: 73px;
+  background: #fff;
+  margin: auto;
+}
+
+#nav .nav .nav_bottom .bottom1 ul {
+  display: flex;
+  line-height: 73px;
+  margin-right: 20px;
+}
+
+#nav .nav .nav_bottom .bottom1 ul li {
+  margin-right: 20px;
+}
+
+#nav .nav .nav_bottom .bottom1 ul li a {
+  display: block;
+  color: #333;
+}
+
+#nav .nav .nav_bottom .bottom1 ul li:nth-child(1) a {
+  color: #0f0e0e;
+}
+
+#px {
+  width: 100%;
+  height: 68px;
+  background: #f7f7f7;
+}
+
+#px .px {
+  width: 1200px;
+  height: 68px;
+  margin: auto;
+}
+
+#px .px .nav1 {
+  padding-top: 30px;
+  display: flex;
+}
+
+#px .px .nav1 li {
+  cursor: pointer;
+  list-style: none;
+}
+
+#px .px .nav1 li span {
+  margin-left: 5px;
+}
+
+#px .px .nav1 li .nav2,
+#px .px .nav1 li .nav3 {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  width: 100px;
+  height: 90px;
+}
+
+#px .px .nav1 li .nav2 li,
+#px .px .nav1 li .nav3 li {
+  width: 80px;
+  height: 30px;
+  background: #fdfafa;
+  text-align: center;
+  font-size: 14px;
+}
+
+#px .px .nav1 li .nav2 li a,
+#px .px .nav1 li .nav3 li a {
+  display: block;
+  color: #222222;
+  line-height: 30px;
+}
+
+#px .px .nav1 li .nav3 {
+  width: 120px;
+}
+
+#px .px .nav1 li .nav3 li {
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+}
+
+#px .px .nav1 li:nth-child(1) {
+  margin-right: 20px;
+}
+
+#px .px .nav1 .s3 {
+  margin-left: 800px;
+}
+
+#px .px .nav1 .s3 a {
+  display: block;
+  cursor: pointer;
+  color: #222222;
+}
+
+#content {
+  width: 100%;
+  height: 2000px;
+  background: #f7f7f7;
+  padding-top: 30px;
+}
+
+#content .content {
+  width: 1200px;
+  height: 2000px;
+  margin: auto;
+}
+
+#content .content .content1 {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+#content .content .content1 figure {
+  width: 280px;
+  height: 373px;
+  background: #fdf9f9;
+}
+
+#content .content .content1 figure a {
+  display: block;
+  color: #0e0d0d;
+}
+
+#content .content .content1 figure img {
+  display: block;
+  width: 280px;
+  height: 250px;
+}
+
+#content .content .content1 figure .span1 {
+  display: none;
+  width: 30px;
+  height: 30px;
+  background: #222;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 230px;
+  z-index: 100px;
+}
+
+#content .content .content1 figure h1 {
+  text-align: center;
+  height: 43px;
+  line-height: 43px;
+  font-size: 12px;
+}
+
+#content .content .content1 figure .divider {
+  width: 65px;
+  border-bottom: 1px solid #ebe9e9;
+  margin: auto;
+}
+
+#content .content .content1 figure p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#content .content .content1 figure:hover span {
+  display: block;
+}
+
+#m-style {
+  width: 100%;
+  height: 80px;
+  background: #f7f7f7;
+}
+
+#m-style .m-style {
+  width: 1200px;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#wz {
+  width: 100%;
+  height: 300px;
+  background: #333333;
+}
+
+#wz .wz {
+  width: 1200px;
+  height: 300px;
+  margin: auto;
+}
+
+#wz .wz h1 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #909090;
+  padding-top: 25px;
+}
+
+#wz .wz #link {
+  width: 1200px;
+}
+
+#wz .wz #link h3 {
+  height: 75px;
+  line-height: 75px;
+  color: #909090;
+}
+
+#wz .wz #link .link1,
+#wz .wz #link .link2,
+#wz .wz #link .link3,
+#wz .wz #link .link4 {
+  width: 300px;
+  height: 185px;
+  float: left;
+}
+
+#wz .wz #link .link1 ul li,
+#wz .wz #link .link2 ul li,
+#wz .wz #link .link3 ul li,
+#wz .wz #link .link4 ul li {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+#wz .wz #link .link1 ul li a,
+#wz .wz #link .link2 ul li a,
+#wz .wz #link .link3 ul li a,
+#wz .wz #link .link4 ul li a {
+  color: #ccc;
+}
+
+#wz .wz #link .link1 ul li a:hover,
+#wz .wz #link .link2 ul li a:hover,
+#wz .wz #link .link3 ul li a:hover,
+#wz .wz #link .link4 ul li a:hover {
+  color: black;
+}
+
+#copyright {
+  width: 100%;
+  height: 60px;
+  background: #222222;
+}
+
+#copyright .copyright {
+  width: 1200px;
+  height: 60px;
+  margin: auto;
+}
+
+#copyright .copyright p {
+  height: 60px;
+  line-height: 60px;
+  color: #909090;
+}
+
+#copyright span {
+  display: block;
+  width: 123px;
+  height: 41px;
+  line-height: 41px;
+  text-align: center;
+  background: #3c90dc;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  float: right;
+  position: fixed;
+  right: 50px;
+  bottom: 0px;
+}

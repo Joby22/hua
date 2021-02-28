@@ -1,0 +1,1191 @@
+ {
+     "app": {
+         "banners": [{
+             "key": "banners\u002F16cff262493e1ee91b341763cbf628470ab3d5876fe79",
+             "bucket": "muse-img",
+             "link": "http:\u002F\u002Fhuaban.com",
+             "desc": "花瓣"
+         }]
+     },
+     "device": {
+         "isMobile": false,
+         "platform": "",
+         "desktop": ""
+     },
+     "me": {
+         "data": {
+             "user_id": null,
+             "urlname": "",
+             "username": "",
+             "avatar": null,
+             "city": "",
+             "hired": 1,
+             "category": [],
+             "settings": {},
+             "extra": {}
+         },
+         "auth": false,
+         "error": null
+     },
+     "search": {
+         "service": {
+             "pager": {
+                 "page": 1,
+                 "limit": 20,
+                 "total": 0
+             },
+             "facets1st": [],
+             "facets2st": [],
+             "hits": [],
+             "ongoing": true,
+             "error": null
+         },
+         "user": {
+             "pager": {
+                 "page": 1,
+                 "limit": 20,
+                 "total": 0
+             },
+             "facets1st": [],
+             "hits": [],
+             "ongoing": true,
+             "error": null
+         },
+         "order": {
+             "pager": {
+                 "page": 1,
+                 "limit": 20,
+                 "total": 0
+             },
+             "hits": []
+         }
+     },
+     "user": {
+         "user_id": null,
+         "urlname": "",
+         "username": "",
+         "name": "",
+         "avatar": {},
+         "city": "",
+         "category": [],
+         "is_museuser": false,
+         "services": {
+             "hits": [],
+             "pager": {}
+         },
+         "boards": {
+             "hits": [],
+             "pager": {}
+         },
+         "creations": {
+             "hits": [],
+             "pager": {}
+         },
+         "creations_likes": [],
+         "collections": {
+             "hits": [],
+             "pager": {
+                 "page": 0,
+                 "total": 0,
+                 "collectionLimit": 20
+             }
+         }
+     },
+     "service": {
+         "current": {
+             "service": {
+                 "service_id": null,
+                 "name": "",
+                 "cover": [],
+                 "category": "",
+                 "tags": [],
+                 "price": 0,
+                 "desc": [],
+                 "rating": null,
+                 "order_count": null,
+                 "is_collected": false,
+                 "complete_in": {},
+                 "status": 0,
+                 "user": {
+                     "extra": {}
+                 },
+                 "extra": {
+                     "urgent": {},
+                     "sub_services": []
+                 },
+                 "__ongoing": true,
+                 "__error": {}
+             }
+         },
+         "add": {
+             "ongoing": true,
+             "error": null
+         }
+     },
+     "order": {
+         "serviceOrder": {
+             "service_id": null,
+             "name": "",
+             "desc": "",
+             "number": 0,
+             "files": [],
+             "urgent": false,
+             "sub_services": [0, 0, 0]
+         },
+         "order": {
+             "user_id": null,
+             "name": "",
+             "status": null,
+             "seller": {},
+             "buyer": {},
+             "service": {},
+             "extra": {},
+             "milestone": {}
+         },
+         "workflows": []
+     },
+     "workspace": {
+         "wallet": {
+             "cards": [],
+             "money": 0,
+             "history": {
+                 "hits": [],
+                 "pager": {
+                     "page": 1,
+                     "total": 0,
+                     "limit": 50
+                 }
+             }
+         }
+     },
+     "config": {
+         "host": "huaban.com",
+         "domains": [{
+             "id": "ui_designer",
+             "name": "UI设计师",
+             "categories": ["web_app_ui"]
+         }, {
+             "id": "designer",
+             "name": "平面设计师",
+             "categories": ["logo_brand", "graphic_design"]
+         }, {
+             "id": "photographer",
+             "name": "摄影师",
+             "categories": ["photography"]
+         }, {
+             "id": "illustrator",
+             "name": "插画师",
+             "categories": ["paint_illustration"]
+         }, {
+             "id": "graphic",
+             "name": "漫画师",
+             "categories": ["paint_illustration"]
+         }, {
+             "id": "animator",
+             "name": "动画师",
+             "categories": ["video_animation"]
+         }, {
+             "id": "household_desiger",
+             "name": "家居设计师",
+             "categories": ["interior_home_design"]
+         }, {
+             "id": "interior_designer",
+             "name": "室内设计师",
+             "categories": ["interior_home_design"]
+         }, {
+             "id": "architect",
+             "name": "建筑设计师",
+             "categories": ["interior_home_design"]
+         }, {
+             "id": "costume_designer",
+             "name": "服装设计师",
+             "categories": ["costume_design"]
+         }, {
+             "id": "industrial_designer",
+             "name": "工业设计师",
+             "categories": ["industry_product"]
+         }, {
+             "id": "stylist",
+             "name": "造型师",
+             "categories": ["fashion_design"]
+         }, {
+             "id": "game_designer",
+             "name": "游戏美术师",
+             "categories": ["paint_illustration"]
+         }, {
+             "id": "artisan",
+             "name": "手工艺人",
+             "categories": ["custom_design"]
+         }, {
+             "id": "other",
+             "name": "其它",
+             "categories": ["others"]
+         }],
+         "categories": [{
+             "id": "logo_brand",
+             "name": "LOGO\u002F品牌",
+             "sub_categories": [{
+                 "id": "logo_design",
+                 "name": "LOGO 设计"
+             }, {
+                 "id": "vi_system_brand",
+                 "name": "VI 系统设计"
+             }, {
+                 "id": "business_card_brand",
+                 "name": "名片设计"
+             }, {
+                 "id": "space_brand",
+                 "name": "展位设计"
+             }, {
+                 "id": "business_gift_brand",
+                 "name": "企业礼品定制"
+             }, {
+                 "id": "brand_others",
+                 "name": "其他LOGO\u002F品牌设计"
+             }]
+         }, {
+             "id": "graphic_design",
+             "name": "平面设计",
+             "sub_categories": [{
+                 "id": "postcard_graphic",
+                 "name": "明信片"
+             }, {
+                 "id": "poster_graphic",
+                 "name": "海报\u002F易拉宝"
+             }, {
+                 "id": "brochure_page_graphic",
+                 "name": "宣传册\u002F宣传单页"
+             }, {
+                 "id": "package_graphic",
+                 "name": "产品包装"
+             }, {
+                 "id": "cover_graphic",
+                 "name": "封面设计"
+             }, {
+                 "id": "graphic_others",
+                 "name": "其他平面设计"
+             }]
+         }, {
+             "id": "web_app_ui",
+             "name": "UI 设计",
+             "sub_categories": [{
+                 "id": "web_ui",
+                 "name": "网页设计"
+             }, {
+                 "id": "app_ui",
+                 "name": "App 设计"
+             }, {
+                 "id": "mobile_web_ui",
+                 "name": "移动网页\u002FH5 页面设计"
+             }, {
+                 "id": "event_ui",
+                 "name": "活动页面设计"
+             }, {
+                 "id": "icon_ui",
+                 "name": "icon 设计"
+             }, {
+                 "id": "banner_ui",
+                 "name": "banner 设计"
+             }, {
+                 "id": "ui_others",
+                 "name": "其它 UI 设计"
+             }]
+         }, {
+             "id": "paint_illustration",
+             "name": "绘画\u002F插画",
+             "sub_categories": [{
+                 "id": "illustration",
+                 "name": "插画设计"
+             }, {
+                 "id": "origin_paint",
+                 "name": "原画设计"
+             }, {
+                 "id": "cartoon_paint",
+                 "name": "漫画设计"
+             }, {
+                 "id": "mascot",
+                 "name": "形象\u002F吉祥物"
+             }, {
+                 "id": "paint_others",
+                 "name": "其他插画艺术"
+             }]
+         }, {
+             "id": "industry_product",
+             "name": "工业\u002F产品设计",
+             "sub_categories": [{
+                 "id": "appearance_product",
+                 "name": "产品外观设计"
+             }, {
+                 "id": "3d_print",
+                 "name": "3D打印设计"
+             }, {
+                 "id": "industry_others",
+                 "name": "其它工业设计"
+             }]
+         }, {
+             "id": "video_animation",
+             "name": "影视\u002F动画",
+             "sub_categories": [{
+                 "id": "animation",
+                 "name": "动画设计"
+             }, {
+                 "id": "ad_video",
+                 "name": "宣传片\u002F广告片设计"
+             }, {
+                 "id": "video_post_hour",
+                 "name": "视频后期"
+             }]
+         }, {
+             "id": "photography",
+             "name": "摄影",
+             "sub_categories": [{
+                 "id": "brand_photography",
+                 "name": "品牌摄影"
+             }, {
+                 "id": "product_photography",
+                 "name": "产品摄影"
+             }, {
+                 "id": "figures_photography",
+                 "name": "人物摄影"
+             }, {
+                 "id": "post_production_photography",
+                 "name": "摄影后期"
+             }, {
+                 "id": "photography_others",
+                 "name": "其他摄影"
+             }]
+         }, {
+             "id": "costume_design",
+             "name": "服装设计",
+             "sub_categories": [{
+                 "id": "custom-tailor",
+                 "name": "高级定制"
+             }, {
+                 "id": "tshirt_costume",
+                 "name": "T-shirt 图案设计"
+             }, {
+                 "id": "case_bag",
+                 "name": "箱包设计"
+             }, {
+                 "id": "costume_others",
+                 "name": "其它服装设计"
+             }]
+         }, {
+             "id": "interior_home_design",
+             "name": "室内设计",
+             "sub_categories": [{
+                 "id": "interior_design",
+                 "name": "室内设计"
+             }, {
+                 "id": "home_design",
+                 "name": "家居\u002F软装设计"
+             }, {
+                 "id": "office_design",
+                 "name": "办公空间设计"
+             }, {
+                 "id": "interior_others",
+                 "name": "其它室内设计"
+             }]
+         }, {
+             "id": "fashion_design",
+             "name": "造型设计",
+             "sub_categories": [{
+                 "id": "cute_version",
+                 "name": "Q版形象"
+             }, {
+                 "id": "tattoo",
+                 "name": "纹身"
+             }, {
+                 "id": "hair_style",
+                 "name": "发型"
+             }, {
+                 "id": "apparel",
+                 "name": "穿搭"
+             }, {
+                 "id": "makeup",
+                 "name": "跟妆"
+             }]
+         }, {
+             "id": "custom_design",
+             "name": "私家定制",
+             "sub_categories": [{
+                 "id": "chinese_beautiful_things",
+                 "name": "中国美物"
+             }, {
+                 "id": "anime_related_products",
+                 "name": "动漫周边"
+             }, {
+                 "id": "star_related_products",
+                 "name": "明星周边"
+             }]
+         }, {
+             "id": "others",
+             "name": "其它",
+             "sub_categories": [{
+                 "id": "sub_others",
+                 "name": "其它设计"
+             }]
+         }],
+         "buckets": {
+             "libin-hbimg": "libin-hbimg.huabanimg.com",
+             "libin-other": "libin-other.huabanimg.com",
+             "hbimg-dev": "hbimg-dev.b0.upaiyun.com",
+             "libin-hbfile": "libin-hbfile.huabanimg.com",
+             "hbfile-dev": "hbfile-dev.b0.upaiyun.com",
+             "hbimg": "hbimg.huabanimg.com",
+             "muse-img": "muse-img.huabanimg.com",
+             "hbimg-other": "hbimg-other.huabanimg.com",
+             "muse-file": "muse-file.huabanimg.com"
+         },
+         "orders": {
+             "id2name": [{
+                 "id": "ordered",
+                 "name": "待接单"
+             }, {
+                 "id": "paying",
+                 "name": "待付款"
+             }, {
+                 "id": "processing",
+                 "name": "进行中"
+             }, {
+                 "id": "evaluating",
+                 "name": "待评价"
+             }, {
+                 "id": "arbitrating",
+                 "name": "仲裁中"
+             }, {
+                 "id": "refunding",
+                 "name": "退款中"
+             }, {
+                 "id": "finished",
+                 "name": "已完成"
+             }, {
+                 "id": "closed",
+                 "name": "已关闭"
+             }],
+             "statuses": [{
+                 "code": -17,
+                 "category": "refunding",
+                 "category_name": "退款中",
+                 "buyer": [{
+                     "code": -5,
+                     "name": "申请仲裁",
+                     "confirm_title": "确认申请仲裁吗？"
+                 }],
+                 "seller": [{
+                     "code": -5,
+                     "name": "联系客服"
+                 }],
+                 "desc": "设计师同意全额退款，退款进行中"
+             }, {
+                 "code": -15,
+                 "category": "refunding",
+                 "category_name": "退款中",
+                 "buyer": [{
+                     "code": -5,
+                     "name": "申请仲裁",
+                     "confirm_title": "确认申请仲裁吗？"
+                 }],
+                 "seller": [{
+                     "code": -17,
+                     "name": "同意全额退款",
+                     "confirm_title": "同意全额退款后，全部款项将会即时进入对方钱包。"
+                 }, {
+                     "code": -5,
+                     "name": "申请仲裁",
+                     "confirm_title": "确认申请仲裁吗？"
+                 }],
+                 "desc": "申请退款中，等待设计师回应"
+             }, {
+                 "code": -5,
+                 "category": "arbitrating",
+                 "category_name": "仲裁中",
+                 "buyer": [],
+                 "seller": [],
+                 "desc": "客服介入中"
+             }, {
+                 "code": 5,
+                 "category": "closed",
+                 "category_name": "已关闭",
+                 "buyer": [],
+                 "seller": [],
+                 "desc": "客户关闭订单"
+             }, {
+                 "code": 6,
+                 "category": "closed",
+                 "category_name": "已关闭",
+                 "buyer": [],
+                 "seller": [],
+                 "desc": "设计师关闭订单"
+             }, {
+                 "code": 7,
+                 "category": "closed",
+                 "category_name": "已关闭",
+                 "buyer": [],
+                 "seller": [],
+                 "desc": "管理员\u002F客服关闭订单"
+             }, {
+                 "code": 8,
+                 "category": "closed",
+                 "category_name": "已关闭",
+                 "buyer": [],
+                 "seller": [],
+                 "desc": "订单超期自动关闭"
+             }, {
+                 "code": 14,
+                 "category": "ordered",
+                 "category_name": "待接单",
+                 "buyer": [{
+                     "code": 15,
+                     "name": "修改需求"
+                 }, {
+                     "code": 5,
+                     "name": "取消订单",
+                     "confirm_title": "取消后，订单将被关闭。确认取消订单吗？"
+                 }],
+                 "seller": [{
+                     "code": 25,
+                     "name": "接受",
+                     "confirm_title": "接单后，您不能修改订单价格。确认接受订单吗？"
+                 }, {
+                     "code": 6,
+                     "name": "拒绝",
+                     "confirm_title": "拒绝后，订单将被关闭。确认拒绝订单吗？"
+                 }, {
+                     "code": 15,
+                     "name": "修改价格"
+                 }],
+                 "desc": "新的订单"
+             }, {
+                 "code": 15,
+                 "category": "ordered",
+                 "category_name": "待接单",
+                 "buyer": [{
+                     "code": 15,
+                     "name": "修改需求"
+                 }, {
+                     "code": 5,
+                     "name": "取消订单",
+                     "confirm_title": "取消后，订单将被关闭。确认取消订单吗？"
+                 }],
+                 "seller": [{
+                     "code": 25,
+                     "name": "接受",
+                     "confirm_title": "接单后，您不能修改订单价格。确认接受订单吗？"
+                 }, {
+                     "code": 6,
+                     "name": "拒绝",
+                     "confirm_title": "拒绝后，订单将被关闭。确认拒绝订单吗？"
+                 }, {
+                     "code": 15,
+                     "name": "修改价格"
+                 }],
+                 "desc": "修改后的订单"
+             }, {
+                 "code": 25,
+                 "category": "paying",
+                 "category_name": "待付款",
+                 "buyer": [{
+                     "code": 15,
+                     "name": "修改需求",
+                     "confirm_title": "改需求后，订单会退回到待接单状态以等待设计师确认，确认修改需求？"
+                 }, {
+                     "code": 35,
+                     "name": "去付款"
+                 }],
+                 "seller": [],
+                 "desc": "设计师已经确认订单，等待客户支付"
+             }, {
+                 "code": 35,
+                 "category": "processing",
+                 "category_name": "进行中",
+                 "buyer": [{
+                     "code": -15,
+                     "name": "申请退款",
+                     "confirm_title": "对方同意退款后，款项会即时进入您的钱包中。"
+                 }, {
+                     "code": -5,
+                     "name": "申请仲裁",
+                     "confirm_title": "确认申请仲裁吗？"
+                 }, {
+                     "code": 55,
+                     "name": "提前完成项目",
+                     "confirm_title": "您确认项目已经完成，可以提前结束？\n完成项目后，托管在花瓣美思的资金将在 72 小时以后汇入对方账户。"
+                 }],
+                 "seller": [{
+                     "code": -5,
+                     "name": "申请仲裁",
+                     "confirm_title": "确认申请仲裁吗？"
+                 }],
+                 "desc": "客户成功支付(服务器已确认)"
+             }, {
+                 "code": 45,
+                 "category": "processing",
+                 "category_name": "进行中",
+                 "buyer": [{
+                     "code": -15,
+                     "name": "申请退款",
+                     "confirm_title": "对方同意退款后，款项会即时进入您的钱包中。"
+                 }, {
+                     "code": -5,
+                     "name": "申请仲裁",
+                     "confirm_title": "确认申请仲裁吗？"
+                 }, {
+                     "code": 55,
+                     "name": "完成项目",
+                     "confirm_title": "您确认项目已经完成？\n完成项目后，托管在花瓣美思的资金将在 72 小时以后汇入对方账户。"
+                 }],
+                 "seller": [{
+                     "code": -5,
+                     "name": "申请仲裁",
+                     "confirm_title": "确认申请仲裁吗？"
+                 }],
+                 "desc": "项目超期"
+             }, {
+                 "code": 52,
+                 "category": "evaluating",
+                 "category_name": "待评价",
+                 "buyer": [{
+                     "code": 65,
+                     "name": "评价"
+                 }, {
+                     "code": -15,
+                     "name": "申请退款",
+                     "confirm_title": "对方同意退款后，款项会即时进入您的钱包中。"
+                 }, {
+                     "code": -5,
+                     "name": "申请仲裁",
+                     "confirm_title": "确认申请仲裁吗？"
+                 }],
+                 "seller": [{
+                     "code": -5,
+                     "name": "申请仲裁",
+                     "confirm_title": "确认申请仲裁吗？"
+                 }],
+                 "desc": "项目超期系统自动支付"
+             }, {
+                 "code": 55,
+                 "category": "evaluating",
+                 "category_name": "待评价",
+                 "buyer": [{
+                     "code": 65,
+                     "name": "评价"
+                 }, {
+                     "code": -15,
+                     "name": "申请退款",
+                     "comfirm_title": "对方同意退款后，款项会即时进入您的钱包中。"
+                 }],
+                 "seller": [],
+                 "desc": "客户接受设计师的作品，设计师收到转账（系统虚拟帐号）"
+             }, {
+                 "code": 57,
+                 "category": "evaluating",
+                 "category_name": "待评价",
+                 "buyer": [{
+                     "code": 67,
+                     "name": "评价"
+                 }],
+                 "seller": [],
+                 "desc": "退款完成,待评价"
+             }, {
+                 "code": 62,
+                 "category": "finished",
+                 "category_name": "已完成",
+                 "buyer": [],
+                 "seller": [],
+                 "desc": "超期未评价"
+             }, {
+                 "code": 63,
+                 "category": "finished",
+                 "category_name": "已完成",
+                 "buyer": [],
+                 "seller": [],
+                 "desc": "退款完成，超期未评价"
+             }, {
+                 "code": 65,
+                 "category": "finished",
+                 "category_name": "已完成",
+                 "buyer": [],
+                 "seller": [],
+                 "desc": "客户已经评价设计服务"
+             }, {
+                 "code": 67,
+                 "category": "finished",
+                 "category_name": "已完成",
+                 "buyer": [],
+                 "seller": [],
+                 "desc": "退款完成, 已评价"
+             }, {
+                 "code": 68,
+                 "category": "finished",
+                 "category_name": "已完成",
+                 "buyer": [],
+                 "seller": [],
+                 "desc": "仲裁完成"
+             }],
+             "messages": [{
+                 "code": -17,
+                 "message": "#seller# 同意了项目： #order# 的退款请求。款项将很快全额进入 #buyer# 账户。如有争议，您可以申请仲裁。"
+             }, {
+                 "code": -15,
+                 "message": "#buyer# 对项目： #order# 发起退款。 同意后，款项将全额进入 #buyer# 账户。如有争议，您可以申请仲裁。"
+             }, {
+                 "code": -5,
+                 "message": "#from# 对项目： #order# 发起仲裁，项目进入仲裁阶段，请等待管理员仲裁。"
+             }, {
+                 "code": 5,
+                 "message": "#from# 取消了订单，#order# 已关闭。"
+             }, {
+                 "code": 6,
+                 "message": "#from# 拒绝了订单，订单被关闭。"
+             }, {
+                 "code": 7,
+                 "message": "对不起，管理员关闭了订单。"
+             }, {
+                 "code": 8,
+                 "message": "#order# 超期 72 小时自动关闭。如有问题，请联系客服。"
+             }, {
+                 "code": 14,
+                 "message": "#buyer# 发送了一个新订单，等待接单。"
+             }, {
+                 "code": 15,
+                 "message": "#from# 修改了订单，等待 #seller# 确认接单。"
+             }, {
+                 "code": 25,
+                 "message": "#seller# 已经接受了订单，等待 #buyer# 付款。"
+             }, {
+                 "code": 34,
+                 "message": "#buyer# 委托花瓣美思官方经纪人为 #seller#  指派了项目订单并完成支付，项目正式开始。"
+             }, {
+                 "code": 35,
+                 "message": "#buyer# 已经支付了订单 #order#，项目正式开始。"
+             }, {
+                 "code": 45,
+                 "message": "#order# 已经到达约定日期，等待 #buyer# 确认。项目会在超时 72 小时后自动结束，款项将进入 #seller# 账户。如有争议，可以申请仲裁。"
+             }, {
+                 "code": 52,
+                 "message": "#order# 已经超期 72 小时，托管在花瓣的款项将自动转入服务方 #seller# 钱包。等待雇主评价本项目。在雇主 #buyer# 评价之后，#seller# 方可在钱包进行提现。 "
+             }, {
+                 "code": 55,
+                 "message": "#buyer# 已同意验收了 #order#，花瓣托管的款项已转入到 #seller# 的钱包。等待雇主评价本项目。在雇主 #buyer# 评价之后，#seller# 方可在钱包进行提现"
+             }, {
+                 "code": 57,
+                 "message": "#order# 已经完成退款，相关款项全额将转入 #buyer# 账户。"
+             }, {
+                 "code": 62,
+                 "message": "#order# 已经超期 72 小时未评价，系统默认给予 #seller# 好评。"
+             }, {
+                 "code": 63,
+                 "message": "#order# 已经超期 72 小时未评价，系统默认给予 #seller# 好评。"
+             }, {
+                 "code": 65,
+                 "message": "#buyer# 评价了项目： #order#。"
+             }, {
+                 "code": 67,
+                 "message": "#buyer# 评价了项目： #order#。"
+             }, {
+                 "code": 68,
+                 "message": "#cover# 项目： #order# 已仲裁完成。"
+             }],
+             "income_percent": 0.8
+         },
+         "defaultAvatar": {
+             "bucket": "libin-hbimg",
+             "frames": 1,
+             "height": 300,
+             "key": "71888ea4c257e13dadcf7f932fd210fc064768fc1394-A1iQLU",
+             "type": "image\u002Fjpeg"
+         },
+         "chatHost": "https:\u002F\u002Fc.huaban.com\u002F",
+         "customerServicesAccounts": {
+             "service": 1
+         },
+         "notificationAccounts": {
+             "system": 1,
+             "workflow": 2,
+             "collection": 3,
+             "wallet": 4,
+             "admin": 5
+         },
+         "imageTypes": "png,jpeg,gif,webp,tiff,bmp,ico",
+         "apps": {
+             "android": {
+                 "url": "https:\u002F\u002Fmuse-file.b0.upaiyun.com\u002Fandroid\u002Fmuse_v2.0.2_2018_07_17.apk",
+                 "version": "2.0.2",
+                 "md5": "bc387ef368ebcf12718b88c77953db9b",
+                 "sha1": "07da28a24edfad664c1ac513c0773b6cf541cdb2",
+                 "changelog": "主要更新内容：\n修复设计师确认订单失败问题\n提升应用稳定性和性能"
+             }
+         },
+         "adminUserIds": [1],
+         "converted": {
+             "domainMap": {
+                 "ui_designer": "UI设计师",
+                 "designer": "平面设计师",
+                 "photographer": "摄影师",
+                 "illustrator": "插画师",
+                 "graphic": "漫画师",
+                 "animator": "动画师",
+                 "household_desiger": "家居设计师",
+                 "interior_designer": "室内设计师",
+                 "architect": "建筑设计师",
+                 "costume_designer": "服装设计师",
+                 "industrial_designer": "工业设计师",
+                 "stylist": "造型师",
+                 "game_designer": "游戏美术师",
+                 "artisan": "手工艺人",
+                 "other": "其它"
+             },
+             "domainCategories": {
+                 "ui_designer": ["web_app_ui"],
+                 "designer": ["logo_brand", "graphic_design"],
+                 "photographer": ["photography"],
+                 "illustrator": ["paint_illustration"],
+                 "graphic": ["paint_illustration"],
+                 "animator": ["video_animation"],
+                 "household_desiger": ["interior_home_design"],
+                 "interior_designer": ["interior_home_design"],
+                 "architect": ["interior_home_design"],
+                 "costume_designer": ["costume_design"],
+                 "industrial_designer": ["industry_product"],
+                 "stylist": ["fashion_design"],
+                 "game_designer": ["paint_illustration"],
+                 "artisan": ["custom_design"],
+                 "other": ["others"]
+             },
+             "categoryMap": {
+                 "logo_brand": "LOGO\u002F品牌",
+                 "logo_design": "LOGO 设计",
+                 "vi_system_brand": "VI 系统设计",
+                 "business_card_brand": "名片设计",
+                 "space_brand": "展位设计",
+                 "business_gift_brand": "企业礼品定制",
+                 "brand_others": "其他LOGO\u002F品牌设计",
+                 "graphic_design": "平面设计",
+                 "postcard_graphic": "明信片",
+                 "poster_graphic": "海报\u002F易拉宝",
+                 "brochure_page_graphic": "宣传册\u002F宣传单页",
+                 "package_graphic": "产品包装",
+                 "cover_graphic": "封面设计",
+                 "graphic_others": "其他平面设计",
+                 "web_app_ui": "UI 设计",
+                 "web_ui": "网页设计",
+                 "app_ui": "App 设计",
+                 "mobile_web_ui": "移动网页\u002FH5 页面设计",
+                 "event_ui": "活动页面设计",
+                 "icon_ui": "icon 设计",
+                 "banner_ui": "banner 设计",
+                 "ui_others": "其它 UI 设计",
+                 "paint_illustration": "绘画\u002F插画",
+                 "illustration": "插画设计",
+                 "origin_paint": "原画设计",
+                 "cartoon_paint": "漫画设计",
+                 "mascot": "形象\u002F吉祥物",
+                 "paint_others": "其他插画艺术",
+                 "industry_product": "工业\u002F产品设计",
+                 "appearance_product": "产品外观设计",
+                 "3d_print": "3D打印设计",
+                 "industry_others": "其它工业设计",
+                 "video_animation": "影视\u002F动画",
+                 "animation": "动画设计",
+                 "ad_video": "宣传片\u002F广告片设计",
+                 "video_post_hour": "视频后期",
+                 "photography": "摄影",
+                 "brand_photography": "品牌摄影",
+                 "product_photography": "产品摄影",
+                 "figures_photography": "人物摄影",
+                 "post_production_photography": "摄影后期",
+                 "photography_others": "其他摄影",
+                 "costume_design": "服装设计",
+                 "custom-tailor": "高级定制",
+                 "tshirt_costume": "T-shirt 图案设计",
+                 "case_bag": "箱包设计",
+                 "costume_others": "其它服装设计",
+                 "interior_home_design": "室内设计",
+                 "interior_design": "室内设计",
+                 "home_design": "家居\u002F软装设计",
+                 "office_design": "办公空间设计",
+                 "interior_others": "其它室内设计",
+                 "fashion_design": "造型设计",
+                 "cute_version": "Q版形象",
+                 "tattoo": "纹身",
+                 "hair_style": "发型",
+                 "apparel": "穿搭",
+                 "makeup": "跟妆",
+                 "custom_design": "私家定制",
+                 "chinese_beautiful_things": "中国美物",
+                 "anime_related_products": "动漫周边",
+                 "star_related_products": "明星周边",
+                 "others": "其它",
+                 "sub_others": "其它设计"
+             },
+             "mainCategories": ["logo_brand", "graphic_design", "web_app_ui", "paint_illustration", "industry_product", "video_animation", "photography", "costume_design", "interior_home_design", "fashion_design", "custom_design", "others"],
+             "subCategories": {
+                 "logo_brand": [{
+                     "id": "logo_design",
+                     "name": "LOGO 设计"
+                 }, {
+                     "id": "vi_system_brand",
+                     "name": "VI 系统设计"
+                 }, {
+                     "id": "business_card_brand",
+                     "name": "名片设计"
+                 }, {
+                     "id": "space_brand",
+                     "name": "展位设计"
+                 }, {
+                     "id": "business_gift_brand",
+                     "name": "企业礼品定制"
+                 }, {
+                     "id": "brand_others",
+                     "name": "其他LOGO\u002F品牌设计"
+                 }],
+                 "graphic_design": [{
+                     "id": "postcard_graphic",
+                     "name": "明信片"
+                 }, {
+                     "id": "poster_graphic",
+                     "name": "海报\u002F易拉宝"
+                 }, {
+                     "id": "brochure_page_graphic",
+                     "name": "宣传册\u002F宣传单页"
+                 }, {
+                     "id": "package_graphic",
+                     "name": "产品包装"
+                 }, {
+                     "id": "cover_graphic",
+                     "name": "封面设计"
+                 }, {
+                     "id": "graphic_others",
+                     "name": "其他平面设计"
+                 }],
+                 "web_app_ui": [{
+                     "id": "web_ui",
+                     "name": "网页设计"
+                 }, {
+                     "id": "app_ui",
+                     "name": "App 设计"
+                 }, {
+                     "id": "mobile_web_ui",
+                     "name": "移动网页\u002FH5 页面设计"
+                 }, {
+                     "id": "event_ui",
+                     "name": "活动页面设计"
+                 }, {
+                     "id": "icon_ui",
+                     "name": "icon 设计"
+                 }, {
+                     "id": "banner_ui",
+                     "name": "banner 设计"
+                 }, {
+                     "id": "ui_others",
+                     "name": "其它 UI 设计"
+                 }],
+                 "paint_illustration": [{
+                     "id": "illustration",
+                     "name": "插画设计"
+                 }, {
+                     "id": "origin_paint",
+                     "name": "原画设计"
+                 }, {
+                     "id": "cartoon_paint",
+                     "name": "漫画设计"
+                 }, {
+                     "id": "mascot",
+                     "name": "形象\u002F吉祥物"
+                 }, {
+                     "id": "paint_others",
+                     "name": "其他插画艺术"
+                 }],
+                 "industry_product": [{
+                     "id": "appearance_product",
+                     "name": "产品外观设计"
+                 }, {
+                     "id": "3d_print",
+                     "name": "3D打印设计"
+                 }, {
+                     "id": "industry_others",
+                     "name": "其它工业设计"
+                 }],
+                 "video_animation": [{
+                     "id": "animation",
+                     "name": "动画设计"
+                 }, {
+                     "id": "ad_video",
+                     "name": "宣传片\u002F广告片设计"
+                 }, {
+                     "id": "video_post_hour",
+                     "name": "视频后期"
+                 }],
+                 "photography": [{
+                     "id": "brand_photography",
+                     "name": "品牌摄影"
+                 }, {
+                     "id": "product_photography",
+                     "name": "产品摄影"
+                 }, {
+                     "id": "figures_photography",
+                     "name": "人物摄影"
+                 }, {
+                     "id": "post_production_photography",
+                     "name": "摄影后期"
+                 }, {
+                     "id": "photography_others",
+                     "name": "其他摄影"
+                 }],
+                 "costume_design": [{
+                     "id": "custom-tailor",
+                     "name": "高级定制"
+                 }, {
+                     "id": "tshirt_costume",
+                     "name": "T-shirt 图案设计"
+                 }, {
+                     "id": "case_bag",
+                     "name": "箱包设计"
+                 }, {
+                     "id": "costume_others",
+                     "name": "其它服装设计"
+                 }],
+                 "interior_home_design": [{
+                     "id": "interior_design",
+                     "name": "室内设计"
+                 }, {
+                     "id": "home_design",
+                     "name": "家居\u002F软装设计"
+                 }, {
+                     "id": "office_design",
+                     "name": "办公空间设计"
+                 }, {
+                     "id": "interior_others",
+                     "name": "其它室内设计"
+                 }],
+                 "fashion_design": [{
+                     "id": "cute_version",
+                     "name": "Q版形象"
+                 }, {
+                     "id": "tattoo",
+                     "name": "纹身"
+                 }, {
+                     "id": "hair_style",
+                     "name": "发型"
+                 }, {
+                     "id": "apparel",
+                     "name": "穿搭"
+                 }, {
+                     "id": "makeup",
+                     "name": "跟妆"
+                 }],
+                 "custom_design": [{
+                     "id": "chinese_beautiful_things",
+                     "name": "中国美物"
+                 }, {
+                     "id": "anime_related_products",
+                     "name": "动漫周边"
+                 }, {
+                     "id": "star_related_products",
+                     "name": "明星周边"
+                 }],
+                 "others": [{
+                     "id": "sub_others",
+                     "name": "其它设计"
+                 }]
+             },
+             "notificationAccountsMap": {
+                 "1": "system",
+                 "2": "workflow",
+                 "3": "collection",
+                 "4": "wallet",
+                 "5": "admin"
+             },
+             "ourself": [1]
+         }
+     },
+     "message": {
+         "chatrooms": [],
+         "chatbox": {
+             "room_id": null,
+             "to": null,
+             "ongoing": true,
+             "recv": false,
+             "type": null
+         },
+         "rooms": {},
+         "notifications": [],
+         "messagebox": {
+             "room_id": null,
+             "name": null,
+             "ongoing": true
+         },
+         "unread": 0,
+         "chatroom_unread": 0,
+         "notification_unread": 0,
+         "current_view": "chatrooms",
+         "hidden": true,
+         "notifyQueue": [],
+         "sysMessage": {}
+     },
+     "offical": {
+         "services": {
+             "hits": [],
+             "pager": {
+                 "page": 0,
+                 "total": 0,
+                 "limit": 20
+             },
+             "__ongoing": true,
+             "__error": {}
+         },
+         "service": {
+             "requirement_id": -1,
+             "user_id": -1,
+             "cover": [],
+             "tags": [],
+             "name": "",
+             "desc": "",
+             "category": "",
+             "sub_category": "",
+             "price": 0,
+             "unit": "",
+             "agent_id": -1,
+             "owner": "",
+             "number": 0,
+             "entries_count": 0,
+             "status": -1,
+             "close_entry_at": 0,
+             "complete_at": 0,
+             "created_at": 0,
+             "entry": {},
+             "extra": {},
+             "__ongoing": true,
+             "__error": {}
+         }
+     },
+     "partner": {
+         "info": {
+             "name": "",
+             "urlname": "",
+             "desc": "",
+             "cover": {
+                 "image": {},
+                 "theme": ""
+             },
+             "service_count": 0,
+             "__ongoing": false,
+             "__error": {}
+         },
+         "services": {
+             "hits": [],
+             "pager": {
+                 "page": 1,
+                 "limit": 20,
+                 "total": 0
+             },
+             "__ongoing": true,
+             "__error": {}
+         }
+     },
+     "cache": {
+         "users": {},
+         "wikis": {}
+     }
+ }
